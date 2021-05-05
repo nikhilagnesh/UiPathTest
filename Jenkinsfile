@@ -6,7 +6,7 @@ pipeline {
 	        environment {
 	        MAJOR = '1'
 	        MINOR = '1'
-	        //Orchestrator Services
+	        ////Orchestrator Services
 	        UIPATH_ORCH_URL = "https://cloud.uipath.com/"
 	        UIPATH_ORCH_LOGICAL_NAME = "hamletconsulting"
 	        UIPATH_ORCH_TENANT_NAME = "DefaultTenant"
