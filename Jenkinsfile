@@ -109,7 +109,7 @@ pipeline {
 						//}
 				//}
 				steps {
-	                //echo 'Deploying process to orchestrator...'
+	                echo 'Deploying process to orchestrator...'
 	                //UiPathDeploy (
 	                //packagePath: "Output\\${env.BUILD_NUMBER}",
 	                //orchestratorAddress: "${UIPATH_ORCH_URL}",
