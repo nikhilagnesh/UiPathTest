@@ -108,7 +108,7 @@ pipeline {
 						//currentBuild.result == null || currentBuild.result == 'SUCCESS' 
 						//}
 				//}
-				//steps {
+				steps {
 	                //echo 'Deploying process to orchestrator...'
 	                //UiPathDeploy (
 	                //packagePath: "Output\\${env.BUILD_NUMBER}",
@@ -119,7 +119,7 @@ pipeline {
 	                //credentials: [$class: 'UserPassAuthenticationEntry', credentialsId: 'APIUserKey']
 	                //credentials: Token(accountName: "${UIPATH_ORCH_LOGICAL_NAME}", credentialsId: 'APIUserKey'),
 					//)
-				//}   
+				}   
 			}	
 		
 	    }
